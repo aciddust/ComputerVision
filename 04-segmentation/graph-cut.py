@@ -16,8 +16,6 @@ fig, ax = plt.subplots(nrows = 1, ncols = 2)
 ax[0].imshow(img)
 ax[1].imshow(output)
 
-for x in ax:
-    x.axis("off")
 plt.tight_layout()
 plt.show()
 
